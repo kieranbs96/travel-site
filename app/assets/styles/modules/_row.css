@@ -29,9 +29,19 @@
             }
         }
 
+        &__medium-6 {
+            width: 50%;
+            float:left;
+        }
+
+
+
         &--gutters>div {
             padding-right: 65px;
-            box-sizing: border-box;
+        }
+
+        &--gutters-large>div {
+            padding-right: 100px;
         }
     }
 
